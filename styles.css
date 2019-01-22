@@ -96,24 +96,23 @@ header ul li a{
 @media (max-width: 1077px) {
     #container1 {
      top: 15%;
-     background-color: rgba(112, 128, 144, 0.322);
     }
   }
   @media (max-width: 1077px) {
     #container2 {
      top: 60%;
-     background-color: rgba(112, 128, 144, 0.322);
+     
     }
   }
 @media (max-width: 850px) {
     #container1 {
      top: 25%;
-     background-color: rgba(112, 128, 144, 0.322);
+     
     }
   }
   @media (max-width: 850px) {
     #container2 {
      top: 100%;
-     background-color: rgba(112, 128, 144, 0.322);
+     
     }
   }
