@@ -5,9 +5,10 @@
 .container{
     position: fixed;
     margin: auto;
-    top: 15%;
+    top: 5%;
     left: 50%;
     margin-left: -20px;
+    z-index: 1000;
 }
 
 #toggle{
@@ -18,7 +19,7 @@
     z-index: 999;
     width: 43px;
     height: 43px;
-    background: #f28482;
+    background: #4353e9;
     border-radius: 100%;
     transition: all 0.5s ease-in-out;
     box-shadow: 1px 3px 10px 0 rgba(0,0,0,0.3);
@@ -56,14 +57,14 @@
     width: 150px;
     border-radius: 5px;
     transform: translateY(0%);
-    box-shadow: 2px 3px 10px 0 rgba(0,0,0,0.1);
+    box-shadow: 2px 3px 10px 0 rgba(0, 0, 0, 0.432);
 }
 
 .nav a{
     text-align: center;
     display: block;
     margin: 20px 0;
-    color: #f28482;
+    color:  #4353e9;
     text-decoration: none;
     font-family: sans-serif;
     text-transform: uppercase;
@@ -84,3 +85,14 @@
     transform: rotate(135deg);
     box-shadow: 0 0 0 0 transparent;
 }
+@media (max-width: 850px) {
+    .container {
+     top: 5%;
+     right: 5%;
+    }
+  }
+@media (max-width: 620px) {
+    .container {
+     top: 13%;
+    }
+  }
