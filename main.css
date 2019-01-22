@@ -86,13 +86,13 @@
     box-shadow: 0 0 0 0 transparent;
 }
 @media (max-width: 850px) {
-    .container {
-     top: 5%;
+    .container{
+     top: 6%;
      right: 5%;
     }
   }
 @media (max-width: 620px) {
     .container {
-     top: 13%;
+     top: 16%;
     }
   }
